@@ -18,5 +18,5 @@ jobs:
     - name: Upload Artifact 
       uses: actions/upload-artifact@v3
       with:
-        name: petclinic-war
-        path: "/target/petclinic.war"
+        name: spring-petclinic
+        path: "/target/spring-petclinic-2.4.5.jar"
