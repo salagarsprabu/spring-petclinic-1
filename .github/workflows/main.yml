@@ -19,4 +19,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: petclinic-war
-        path: "/petclinic.war"
+        path: "/target/petclinic.war"
